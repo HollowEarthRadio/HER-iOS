@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		DE7AAABC10CA033C001E4D49 /* AudioStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7AAAB610CA033C001E4D49 /* AudioStreamer.m */; };
+		DE7AAABD10CA033C001E4D49 /* iPhoneStreamingPlayerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7AAAB910CA033C001E4D49 /* iPhoneStreamingPlayerAppDelegate.m */; };
+		DE7AAABE10CA033C001E4D49 /* iPhoneStreamingPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7AAABB10CA033C001E4D49 /* iPhoneStreamingPlayerViewController.m */; };
+		DE7AAAC210CA0380001E4D49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7AAAC110CA0380001E4D49 /* main.m */; };
+		DE7AAAFD10CA039D001E4D49 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE7AAAFC10CA039D001E4D49 /* MainWindow.xib */; };
+		DE7AAB0D10CA0412001E4D49 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE7AAB0C10CA0412001E4D49 /* CFNetwork.framework */; };
+		DE7AAB1210CA041D001E4D49 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE7AAB1110CA041D001E4D49 /* QuartzCore.framework */; };
+		DE7AAB2B10CA044D001E4D49 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE7AAB2A10CA044D001E4D49 /* CoreAudio.framework */; };
+		DE7AAB3910CA04CC001E4D49 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE7AAB3810CA04CC001E4D49 /* AudioToolbox.framework */; };
+		DE7AAB5E10CA0520001E4D49 /* loadingbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = DE7AAAC310CA0390001E4D49 /* loadingbutton.png */; };
+		DE7AAB5F10CA0520001E4D49 /* playbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = DE7AAAC410CA0390001E4D49 /* playbutton.png */; };
+		DE7AAB6010CA0520001E4D49 /* stopbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = DE7AAAC510CA0390001E4D49 /* stopbutton.png */; };
+		DE7AAB6110CA0520001E4D49 /* iPhoneStreamingPlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE7AAAC610CA0390001E4D49 /* iPhoneStreamingPlayerViewController.xib */; };
+		DE7AAB6210CA0520001E4D49 /* es.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE7AAAB310CA0324001E4D49 /* es.jpg */; };
+		DEA403EF10CB6CB700780C86 /* es2.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA403EE10CB6CB700780C86 /* es2.png */; };
+		DEA403F210CB6DF300780C86 /* cave-background.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA403F110CB6DF300780C86 /* cave-background.png */; };
+		DEA403F410CB714C00780C86 /* es3.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA403F310CB714C00780C86 /* es3.png */; };
+		DEA4044110CB7B6800780C86 /* es4.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA4044010CB7B6800780C86 /* es4.png */; };
+		DEA4045010CB7F2700780C86 /* es-final.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA4044910CB7F2600780C86 /* es-final.png */; };
+		DEA4045110CB7F2700780C86 /* es4-2.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA4044A10CB7F2600780C86 /* es4-2.png */; };
+		DEA4045210CB7F2700780C86 /* es4-3.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA4044B10CB7F2600780C86 /* es4-3.png */; };
+		DEA4045310CB7F2700780C86 /* es4-4.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA4044C10CB7F2600780C86 /* es4-4.png */; };
+		DEA4045410CB7F2700780C86 /* es4-5.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA4044D10CB7F2700780C86 /* es4-5.png */; };
+		DEA4045510CB7F2700780C86 /* es4-6.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA4044E10CB7F2700780C86 /* es4-6.png */; };
+		DEA4045610CB7F2700780C86 /* es4-7.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA4044F10CB7F2700780C86 /* es4-7.png */; };
+		DEAB570D1745E961003057FF /* trans-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = DEAB570C1745E961003057FF /* trans-logo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* HER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HER.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8D1107310486CEB800E47090 /* HER-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "HER-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		DE7AAAB310CA0324001E4D49 /* es.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = es.jpg; sourceTree = "<group>"; };
+		DE7AAAB610CA033C001E4D49 /* AudioStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioStreamer.m; sourceTree = "<group>"; };
+		DE7AAAB710CA033C001E4D49 /* AudioStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioStreamer.h; sourceTree = "<group>"; };
+		DE7AAAB810CA033C001E4D49 /* iPhoneStreamingPlayerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPhoneStreamingPlayerAppDelegate.h; sourceTree = "<group>"; };
+		DE7AAAB910CA033C001E4D49 /* iPhoneStreamingPlayerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPhoneStreamingPlayerAppDelegate.m; sourceTree = "<group>"; };
+		DE7AAABA10CA033C001E4D49 /* iPhoneStreamingPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPhoneStreamingPlayerViewController.h; sourceTree = "<group>"; };
+		DE7AAABB10CA033C001E4D49 /* iPhoneStreamingPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPhoneStreamingPlayerViewController.m; sourceTree = "<group>"; };
+		DE7AAAC010CA0371001E4D49 /* HER_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HER_Prefix.pch; sourceTree = "<group>"; };
+		DE7AAAC110CA0380001E4D49 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE7AAAC310CA0390001E4D49 /* loadingbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loadingbutton.png; sourceTree = "<group>"; };
+		DE7AAAC410CA0390001E4D49 /* playbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playbutton.png; sourceTree = "<group>"; };
+		DE7AAAC510CA0390001E4D49 /* stopbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stopbutton.png; sourceTree = "<group>"; };
+		DE7AAAC610CA0390001E4D49 /* iPhoneStreamingPlayerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iPhoneStreamingPlayerViewController.xib; sourceTree = "<group>"; };
+		DE7AAAFC10CA039D001E4D49 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		DE7AAB0C10CA0412001E4D49 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		DE7AAB1110CA041D001E4D49 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DE7AAB2A10CA044D001E4D49 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		DE7AAB3810CA04CC001E4D49 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		DEA403EE10CB6CB700780C86 /* es2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = es2.png; sourceTree = "<group>"; };
+		DEA403F110CB6DF300780C86 /* cave-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cave-background.png"; sourceTree = "<group>"; };
+		DEA403F310CB714C00780C86 /* es3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = es3.png; sourceTree = "<group>"; };
+		DEA4044010CB7B6800780C86 /* es4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = es4.png; sourceTree = "<group>"; };
+		DEA4044910CB7F2600780C86 /* es-final.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "es-final.png"; sourceTree = "<group>"; };
+		DEA4044A10CB7F2600780C86 /* es4-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "es4-2.png"; sourceTree = "<group>"; };
+		DEA4044B10CB7F2600780C86 /* es4-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "es4-3.png"; sourceTree = "<group>"; };
+		DEA4044C10CB7F2600780C86 /* es4-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "es4-4.png"; sourceTree = "<group>"; };
+		DEA4044D10CB7F2700780C86 /* es4-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "es4-5.png"; sourceTree = "<group>"; };
+		DEA4044E10CB7F2700780C86 /* es4-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "es4-6.png"; sourceTree = "<group>"; };
+		DEA4044F10CB7F2700780C86 /* es4-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "es4-7.png"; sourceTree = "<group>"; };
+		DEAB570C1745E961003057FF /* trans-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trans-logo.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				DE7AAB0D10CA0412001E4D49 /* CFNetwork.framework in Frameworks */,
+				DE7AAB1210CA041D001E4D49 /* QuartzCore.framework in Frameworks */,
+				DE7AAB2B10CA044D001E4D49 /* CoreAudio.framework in Frameworks */,
+				DE7AAB3910CA04CC001E4D49 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DE7AAAB610CA033C001E4D49 /* AudioStreamer.m */,
+				DE7AAAB710CA033C001E4D49 /* AudioStreamer.h */,
+				DE7AAAB810CA033C001E4D49 /* iPhoneStreamingPlayerAppDelegate.h */,
+				DE7AAAB910CA033C001E4D49 /* iPhoneStreamingPlayerAppDelegate.m */,
+				DE7AAABA10CA033C001E4D49 /* iPhoneStreamingPlayerViewController.h */,
+				DE7AAABB10CA033C001E4D49 /* iPhoneStreamingPlayerViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* HER.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				DE7AAB2A10CA044D001E4D49 /* CoreAudio.framework */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				DE7AAAC110CA0380001E4D49 /* main.m */,
+				DE7AAAC010CA0371001E4D49 /* HER_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DEAB570C1745E961003057FF /* trans-logo.png */,
+				DEA4044910CB7F2600780C86 /* es-final.png */,
+				DEA4044A10CB7F2600780C86 /* es4-2.png */,
+				DEA4044B10CB7F2600780C86 /* es4-3.png */,
+				DEA4044C10CB7F2600780C86 /* es4-4.png */,
+				DEA4044D10CB7F2700780C86 /* es4-5.png */,
+				DEA4044E10CB7F2700780C86 /* es4-6.png */,
+				DEA4044F10CB7F2700780C86 /* es4-7.png */,
+				DEA4044010CB7B6800780C86 /* es4.png */,
+				DEA403F310CB714C00780C86 /* es3.png */,
+				DEA403F110CB6DF300780C86 /* cave-background.png */,
+				DEA403EE10CB6CB700780C86 /* es2.png */,
+				DE7AAAFC10CA039D001E4D49 /* MainWindow.xib */,
+				DE7AAAC310CA0390001E4D49 /* loadingbutton.png */,
+				DE7AAAC410CA0390001E4D49 /* playbutton.png */,
+				DE7AAAC510CA0390001E4D49 /* stopbutton.png */,
+				DE7AAAC610CA0390001E4D49 /* iPhoneStreamingPlayerViewController.xib */,
+				DE7AAAB310CA0324001E4D49 /* es.jpg */,
+				8D1107310486CEB800E47090 /* HER-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE7AAB1110CA041D001E4D49 /* QuartzCore.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				DE7AAB0C10CA0412001E4D49 /* CFNetwork.framework */,
+				DE7AAB3810CA04CC001E4D49 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* HER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "HER" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HER;
+			productName = HER;
+			productReference = 1D6058910D05DD3D006BFB54 /* HER.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "HER" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* HER */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE7AAAFD10CA039D001E4D49 /* MainWindow.xib in Resources */,
+				DE7AAB5E10CA0520001E4D49 /* loadingbutton.png in Resources */,
+				DE7AAB5F10CA0520001E4D49 /* playbutton.png in Resources */,
+				DE7AAB6010CA0520001E4D49 /* stopbutton.png in Resources */,
+				DE7AAB6110CA0520001E4D49 /* iPhoneStreamingPlayerViewController.xib in Resources */,
+				DE7AAB6210CA0520001E4D49 /* es.jpg in Resources */,
+				DEA403EF10CB6CB700780C86 /* es2.png in Resources */,
+				DEA403F210CB6DF300780C86 /* cave-background.png in Resources */,
+				DEA403F410CB714C00780C86 /* es3.png in Resources */,
+				DEA4044110CB7B6800780C86 /* es4.png in Resources */,
+				DEA4045010CB7F2700780C86 /* es-final.png in Resources */,
+				DEA4045110CB7F2700780C86 /* es4-2.png in Resources */,
+				DEA4045210CB7F2700780C86 /* es4-3.png in Resources */,
+				DEA4045310CB7F2700780C86 /* es4-4.png in Resources */,
+				DEA4045410CB7F2700780C86 /* es4-5.png in Resources */,
+				DEA4045510CB7F2700780C86 /* es4-6.png in Resources */,
+				DEA4045610CB7F2700780C86 /* es4-7.png in Resources */,
+				DEAB570D1745E961003057FF /* trans-logo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE7AAABC10CA033C001E4D49 /* AudioStreamer.m in Sources */,
+				DE7AAABD10CA033C001E4D49 /* iPhoneStreamingPlayerAppDelegate.m in Sources */,
+				DE7AAABE10CA033C001E4D49 /* iPhoneStreamingPlayerViewController.m in Sources */,
+				DE7AAAC210CA0380001E4D49 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HER_Prefix.pch;
+				INFOPLIST_FILE = "HER-Info.plist";
+				PRODUCT_NAME = HER;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HER_Prefix.pch;
+				INFOPLIST_FILE = "HER-Info.plist";
+				PRODUCT_NAME = HER;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "HER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "HER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
